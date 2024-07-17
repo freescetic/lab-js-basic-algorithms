@@ -18,3 +18,16 @@ else {
 }
 
 // Iteration 3: Loops
+console.log(hacker1[0].toUpperCase + " " + hacker1[1].toUpperCase + " " + hacker1[2].toUpperCase + " " + hacker1[3].toUpperCase + " ");
+
+for (let i = hacker2.length - 1; i >= 0; i--) {
+  console.log(hacker2[i]);
+}
+
+if (hacker1.toLowerCase() < hacker2.toLowerCase()) {
+  console.log("The driver's name goes first.");
+} else if (hacker1.toLowerCase() > hacker2.toLowerCase()) {
+  console.log("Yo, the navigator goes first definitely.");
+} else {
+  console.log("What?! You both have the same name?");
+}
